@@ -1,0 +1,144 @@
+body{
+    background-color:thistle;
+    margin:5px;
+    padding:5px;
+
+}
+header{
+    background-color:rgb(124, 104, 124);
+    border-radius: 15px;
+    margin:0;
+    padding: 0;
+    
+}
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:2px;
+    padding:15px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap:25px;
+    padding: 10px;
+}
+nav a{
+    margin:2px;
+    padding:2px;
+    color:thistle;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight:bold;
+}
+nav a:hover{
+    border-style: solid;
+    border-color:rgb(169, 145, 169);
+    border-radius: 7px;
+    background-color:rgb(169,145,169);
+}
+h1{
+    color:thistle;
+}
+h2{
+    color:rgb(124, 104, 124);
+    padding:15px;
+    margin:15px;
+    font-size:x-large;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pages{
+    background:rgb(253, 218, 253);
+    border-radius:15px;
+    padding:50px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom:25px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.1);}
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer{
+    background-color:rgb(124, 104, 124);
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    color:thistle;
+}
+img{
+    margin: 15px auto;    
+    border-radius: 100px;  
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
+    max-width: 100%;     
+    height: 110px;
+    width:110px
+}
+th,tr{
+    background-color: rgb(124, 104, 124);
+    color: thistle;
+}
+table{
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    height:50%;
+}
+.icons {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.icons a {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 40px; 
+    color: #555; 
+    transition: all 0.3s ease;
+}
+
+.icons a:hover {
+    transform: scale(1.2);
+}
+.homeimg{
+    float:right;
+}
+.passionimg{
+    float:right;
+}
+.languages-simple {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.lang-rating {
+    background: #f5f5f5;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #3498db;
+}
+
+.lang-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.lang-score {
+    font-size: 36px;
+    font-weight: bold;
+    color: #3498db;
+    margin: 10px 0;
+}
+
+.lang-desc {
+    color: #666;
+    font-style: italic;
+}
+.lang-rating:nth-child(2) { border-left-color: #2ecc71; } 
+.lang-rating:nth-child(3) { border-left-color: #e74c3c; } 
+.lang-rating:nth-child(4) { border-left-color: #f39c12; } 
+.lang-rating:nth-child(5) { border-left-color: #9b59b6; } 
